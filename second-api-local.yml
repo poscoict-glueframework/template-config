@@ -31,3 +31,8 @@ spring:
       settings:
         trace: true
         web-allow-others: false
+swagger:
+  title: swagger.title
+  description: swagger.description
+  termsOfServiceUrl: swagger.termsOfServiceUrl
+  basePackage: swagger.basePackage
