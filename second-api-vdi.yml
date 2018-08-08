@@ -1,7 +1,7 @@
 eureka:
   client:
     serverUrl:
-      defaultZone: http://demo-server:8888/eureka
+      defaultZone: http://demo-server:8761/eureka
     enabled: true
 feign:
   hystrix:
