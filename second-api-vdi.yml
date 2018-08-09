@@ -1,7 +1,7 @@
 eureka:
   client:
     serverUrl:
-      defaultZone: http://demo-server:8761/eureka
+      defaultZone: http://eureka-server:8761/eureka
     enabled: true
 feign:
   hystrix:
@@ -9,6 +9,9 @@ feign:
 spring:
   application:
     name: second-api
+  cloud:
+    config:
+      uri: http://config-server:8888
   datasource:
     url: jdbc:h2:mem:example-app;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
     platform: h2
@@ -30,7 +33,7 @@ spring:
       path: /h2-console
       settings:
         trace: true
-        web-allow-others: false
+        web-allow-others: true
 swagger:
   title: swagger.title
   description: swagger.description
