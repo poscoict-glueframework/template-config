@@ -35,5 +35,5 @@ swagger:
   title: 'second-api'
   description: 'second-api 입니다.'
   termsOfServiceUrl: 'zuul-server:8080/second-api'
-  basePackage: 'com.poscoict.sample'
+  basePackage: 'com.poscoict.second'
 

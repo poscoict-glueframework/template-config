@@ -9,8 +9,6 @@ feign:
   hystrix:
     enabled: false
 spring:
-  application:
-    name: second-api
   datasource:
     url: jdbc:h2:mem:example-app;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
     platform: h2
@@ -34,7 +32,7 @@ spring:
         trace: true
         web-allow-others: false
 swagger:
-  title: swagger.title
-  description: swagger.description
-  termsOfServiceUrl: swagger.termsOfServiceUrl
-  basePackage: swagger.basePackage
+  title: 'second-api'
+  description: 'second-api 입니다.'
+  termsOfServiceUrl: 'localhost:9180/second-api'
+  basePackage: 'com.poscoict.second'
