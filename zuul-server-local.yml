@@ -1,0 +1,7 @@
+zuul:
+  routes:
+    myapiserver:
+      serviceId: sample-api
+      path: /sample-api/**
+  debug:
+    requestrequest: true
