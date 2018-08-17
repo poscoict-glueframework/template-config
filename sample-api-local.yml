@@ -31,3 +31,8 @@ spring:
       settings:
         trace: true
         web-allow-others: false
+swagger:
+  title: 'sample'
+  description: 'sample입니다.'
+  termsOfServiceUrl: 'localhost:9080/sample-api'
+  basePackage: 'com.poscoict.sample'
