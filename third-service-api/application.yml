@@ -1,0 +1,5 @@
+swagger:
+  title: 'third-service-api'
+  description: 'third-service-api document & tester'
+  termsOfServiceUrl: 'localhost:8080/third-service-api'
+  basePackage: com.posco.sample.third

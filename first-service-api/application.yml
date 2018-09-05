@@ -1,0 +1,5 @@
+swagger:
+  title: 'first-service-api'
+  description: 'first-service-api document & tester'
+  termsOfServiceUrl: 'localhost:8080/first-service-api'
+  basePackage: com.posco.sample.first

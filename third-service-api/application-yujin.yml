@@ -1,0 +1,13 @@
+server: 
+  port: 9003
+eureka:
+  client:
+    serviceurl: 
+      defaultzone: http://demo-eureka:8761/eureka/
+feign: 
+  hystrix: 
+    enabled: false
+logging:
+  level:
+    ROOT: INFO
+    com.posco: TRACE

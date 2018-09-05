@@ -1,0 +1,5 @@
+swagger:
+  title: 'second-service-api'
+  description: 'second-service-api document & tester'
+  termsOfServiceUrl: 'localhost:8080/second-service-api'
+  basePackage: com.posco.sample.second
