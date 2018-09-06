@@ -38,3 +38,4 @@ logging:
   level:
     ROOT: INFO
     com.posco: TRACE
+    com.poscoict: TRACE
